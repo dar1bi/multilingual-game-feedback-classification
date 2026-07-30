@@ -1,0 +1,17 @@
+# Verified working versions (base conda / Python 3.13, Apple MPS)
+numpy==2.4.4
+pandas==2.3.3
+matplotlib==3.10.9
+seaborn==0.13.2
+scikit-learn==1.7.2
+scipy==1.15.3
+xgboost==3.2.0
+langdetect==1.0.9
+iterative-stratification==0.1.9
+sentence-transformers==5.6.1
+transformers==5.14.1
+torch==2.11.0
+openai==2.30.0
+
+# Jupyter to run the notebook (pulls in ipykernel, nbconvert and IPython)
+notebook==7.3.2
