@@ -8,8 +8,8 @@
 Увесь пайплайн — від сирих даних до порівняння семи моделей і аналізу помилок — зібраний
 в одному нотбуці: [`notebooks/multilingual-game-feedback-classification.ipynb`](notebooks/multilingual-game-feedback-classification.ipynb).
 
-Фінальна модель опублікована на HuggingFace Hub:
-[**dar1bi/cloud-gaming-feedback-multilabel**](https://huggingface.co/dar1bi/cloud-gaming-feedback-multilabel).
+🚀 **[Живе демо](https://multilingual-game-feedback-classification.streamlit.app)** ·
+🤗 **[Модель на HuggingFace Hub](https://huggingface.co/dar1bi/cloud-gaming-feedback-multilabel)**
 
 ---
 
@@ -156,7 +156,8 @@ DL_project_my_for_AI/
 ## 9. Демо-застосунок
 
 Фінальна модель загорнута у невеликий **Streamlit**-застосунок ([`app/app.py`](app/app.py)),
-який класифікує довільний коментар у реальному часі.
+який класифікує довільний коментар у реальному часі. Розгорнутий на Streamlit Community Cloud:
+**[multilingual-game-feedback-classification.streamlit.app](https://multilingual-game-feedback-classification.streamlit.app)**
 
 - **Демо:** поле вводу з готовими прикладами різними мовами; результат показується двома
   блоками — передбачені проблеми людськими назвами і таблиця ймовірностей по всіх шести
